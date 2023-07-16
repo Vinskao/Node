@@ -1,9 +1,10 @@
-const fs = require('fs')
 
-//fs.writeFileSync('notes.txt','my name is mkao!')
-
-fs.appendFileSync('notes.txt','I live in TP');
+const add  = require('./utils')
 
 
-// challege: append a message to notes.txt
-// use fs.appendFile
+
+const sum = add(3,-1)
+
+console.log(sum);
+
+
